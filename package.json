@@ -1,0 +1,23 @@
+{
+  "name": "readable-name-generator",
+  "version": "0.1.0",
+  "description": "Pattern-based random name generation, strict by default with a lenient escape hatch",
+  "license": "MIT",
+  "author": "pebblebirch",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/test"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
